@@ -1,0 +1,28 @@
+{
+  "name": "baizy-custom-blocks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WordPress カスタムブロックプラグイン。TypeScript + Vite でビルド。",
+  "scripts": {
+    "build": "vite build",
+    "start": "vite build --watch"
+  },
+  "author": "Yuki Uota",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/wordpress__block-editor": "^15.0.6",
+    "@vitejs/plugin-react": "^6.0.3",
+    "@wordpress/block-editor": "^15.23.0",
+    "@wordpress/blocks": "^15.23.0",
+    "@wordpress/components": "^33.1.0",
+    "@wordpress/element": "^6.46.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.4",
+    "vite-plugin-css-injected-by-js": "^5.0.1"
+  }
+}
