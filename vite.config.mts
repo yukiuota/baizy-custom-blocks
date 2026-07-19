@@ -33,7 +33,7 @@ export default defineConfig({
         globals: {
           'react': 'React',
           'react-dom': 'ReactDOM',
-          'react/jsx-runtime': 'React',
+          'react/jsx-runtime': 'ReactJSXRuntime',
           '@wordpress/blocks': 'wp.blocks',
           '@wordpress/block-editor': 'wp.blockEditor',
           '@wordpress/components': 'wp.components',

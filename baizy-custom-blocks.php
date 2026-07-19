@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/yukiuota/baizy
  * Description:       TypeScript（Vite ビルド）製のカスタムブロックをブロックエディターに追加します。
  * Version:           1.0.0
- * Requires at least: 6.0
+ * Requires at least: 6.6
  * Requires PHP:      8.0
  * Author:            Yuki Uota
  * License:           GPL-2.0-or-later
@@ -35,7 +35,7 @@ function baizy_cb_enqueue_block_editor_assets() {
 	wp_enqueue_script(
 		'baizy-custom-blocks',
 		BAIZY_CB_URL . 'build/custom-blocks.js',
-		array( 'wp-blocks', 'wp-element', 'wp-editor', 'wp-components', 'wp-block-editor' ),
+		array( 'wp-blocks', 'wp-element', 'wp-components', 'wp-block-editor', 'react-jsx-runtime' ),
 		filemtime( $build_file ),
 		true
 	);
